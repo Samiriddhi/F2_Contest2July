@@ -1,0 +1,111 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    magin:20px;
+}
+.upper{
+    display:flex;
+    flex-direction: row; 
+}
+.itemF{
+    margin: 2px;
+}
+
+.item a{
+    margin: 2px 6px;
+    text-decoration: none;
+    color:black;
+}
+
+.item a:hover{
+    color:green;
+}
+
+.banner{
+    background-image: url("https://previews.123rf.com/images/virtosmedia/virtosmedia2303/virtosmedia230314026/199714019-pancake-with-fresh-berries-and-chocolate-splashes-on-black-background.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 50px;
+    width:100%;
+    background-color: rgb(35, 34, 33);
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.banner .a{
+    color: brown;
+    padding: 50px;
+    font-size: 10px;
+    float: left;
+}
+
+.banner .b{
+    color:aliceblue;
+    padding left: 10px;
+    font-size: 30px;
+    float: left;
+}
+.banner .c{
+  color:aliceblue;
+  font-size: 20px;
+  float: left;
+  padding left: 10px;
+  
+}
+
+.search{
+    margin: 30px;
+}
+
+.all{
+    background-color: orange;
+    color: aliceblue;
+    border-radius: 10px;
+}
+.veg{
+    background-color: chartreuse;
+    color: aliceblue;
+    border-radius: 10px;
+}   
+.nonveg{
+  background-color: red;
+  color: aliceblue;
+  border-radius: 10px;
+}
+
+
+.body{
+    padding: 5px 0px 5px 100px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid gap: 30px 20px;
+}
+
+
+.down{
+    display: flex;
+    flex-direction: row;
+}
+
+.one, .two, .three, .four{
+    margin: 5px 10px;
+}
+
+.two ul li, .three ul li{
+    list-style-type: none;
+}
+
+.end{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.end{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+}
